@@ -1,0 +1,57 @@
+body{
+
+    background-color: rgb(198, 230, 230);
+    .forForm{
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        #name, #surname, #age, #salary{
+            width: 100px;
+        }
+    
+        .rowForBtn{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    
+        .buttonDiv{
+            display: flex;
+            justify-content:right;
+            align-items:flex-end;
+           
+        }
+
+        .fa-cloud-upload-alt{
+            font-size: 40px;
+            color: rgb(0, 48, 207);
+            transform: translateY(-20px);
+            margin-left: 20px;
+        }
+
+       
+
+        .btn{
+            width: 100px;
+        }
+
+        .span{
+            display: inline-block;
+            transform: translateY(-30px);
+            font-size: 15px;
+            font-weight: bold;
+        
+        }
+
+        .imgUpload{
+
+            .input{
+                visibility: hidden;
+            }
+        }
+
+        label{
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}

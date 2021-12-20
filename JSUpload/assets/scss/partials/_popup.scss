@@ -1,0 +1,59 @@
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00000065;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+  .inner {
+    position: relative;
+    border: 8px solid rgb(46, 46, 46);
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+
+    img{
+      height: 100%;
+      width: 100%;
+      position: relative;
+    }
+  
+
+    .forPop {
+      position: absolute;
+      top: -18px;
+      right: -14px;
+      cursor: pointer;
+      background-color: black;
+      border-radius: 50%;
+
+      i {
+        color: white;
+        font-size: 28px;
+      }
+    }
+
+    .arrows {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: absolute;
+      width: 100%;
+      top: 45%;
+
+      i {
+        cursor: pointer;
+        color: white;
+        font-size: 30px;
+        border:2px solid rgb(88, 23, 23);
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
